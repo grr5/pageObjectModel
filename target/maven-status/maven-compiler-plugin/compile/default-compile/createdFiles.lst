@@ -1,0 +1,8 @@
+myorange\pages\AddEmployee.class
+myorange\pages\AdminPage.class
+myorange\pages\LoginPage.class
+myorange\pages\EmployeeList.class
+myorange\pages\PimPage.class
+myorange\base\BaseTest.class
+myorange\pages\WelcomeAdminPage.class
+myorange\pages\HomePage.class

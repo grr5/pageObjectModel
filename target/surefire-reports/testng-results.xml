@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="93619" started-at="2018-03-31T15:47:52Z" finished-at="2018-03-31T15:49:26Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="93619" started-at="2018-03-31T15:47:52Z" finished-at="2018-03-31T15:49:26Z">
+      <class name="myorange.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:myorange.testcases.HomePageTest@67b6d4ae]" name="setUp" is-config="true" duration-ms="19332" started-at="2018-03-31T16:47:52Z" finished-at="2018-03-31T16:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:myorange.testcases.HomePageTest@67b6d4ae]" name="verifyTitle" duration-ms="30" started-at="2018-03-31T16:48:11Z" finished-at="2018-03-31T16:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- myorange.testcases.HomePageTest -->
+      <class name="myorange.testcases.SanityTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:myorange.testcases.SanityTest@34b7bfc0]" name="setUp" is-config="true" duration-ms="8819" started-at="2018-03-31T16:48:11Z" finished-at="2018-03-31T16:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPage()[pri:1, instance:myorange.testcases.SanityTest@34b7bfc0]" name="verifyLoginPage" duration-ms="210" started-at="2018-03-31T16:48:20Z" finished-at="2018-03-31T16:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:myorange.testcases.SanityTest@34b7bfc0]" name="setUp" is-config="true" duration-ms="9111" started-at="2018-03-31T16:48:20Z" finished-at="2018-03-31T16:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:myorange.testcases.SanityTest@34b7bfc0]" name="loginTest" duration-ms="4248" started-at="2018-03-31T16:48:30Z" finished-at="2018-03-31T16:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:myorange.testcases.SanityTest@34b7bfc0]" name="setUp" is-config="true" duration-ms="14423" started-at="2018-03-31T16:48:34Z" finished-at="2018-03-31T16:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAdminTest()[pri:3, instance:myorange.testcases.SanityTest@34b7bfc0]" name="verifyAdminTest" duration-ms="2910" started-at="2018-03-31T16:48:48Z" finished-at="2018-03-31T16:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:myorange.testcases.SanityTest@34b7bfc0]" name="setUp" is-config="true" duration-ms="12599" started-at="2018-03-31T16:48:51Z" finished-at="2018-03-31T16:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goToPim()[pri:4, instance:myorange.testcases.SanityTest@34b7bfc0]" name="goToPim" duration-ms="4220" started-at="2018-03-31T16:49:04Z" finished-at="2018-03-31T16:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPim -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:myorange.testcases.SanityTest@34b7bfc0]" name="setUp" is-config="true" duration-ms="9152" started-at="2018-03-31T16:49:08Z" finished-at="2018-03-31T16:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewEmployee()[pri:5, instance:myorange.testcases.SanityTest@34b7bfc0]" name="addNewEmployee" duration-ms="8519" started-at="2018-03-31T16:49:17Z" finished-at="2018-03-31T16:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployee -->
+      </class> <!-- myorange.testcases.SanityTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

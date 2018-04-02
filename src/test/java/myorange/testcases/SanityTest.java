@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-//this ic change
+//this is change
 public class SanityTest extends BaseTest {
     LoginPage loginPage;
     WelcomeAdminPage welcomeAdminPage;

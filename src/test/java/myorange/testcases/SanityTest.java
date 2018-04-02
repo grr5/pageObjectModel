@@ -5,10 +5,13 @@ import myorange.pages.AddEmployee;
 import myorange.pages.PimPage;
 import myorange.pages.WelcomeAdminPage;
 import myorange.pages.LoginPage;
+import myorange.util.TestUtil;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import java.io.IOException;
 
 //this ic change
 public class SanityTest extends BaseTest {
@@ -31,19 +34,21 @@ public class SanityTest extends BaseTest {
     }
 
     @Test(priority = 1)
-    public void verifyLoginPage(){
+    public void verifyLoginPage() throws IOException{
 //        loginPage = new LoginPage();
         String title = loginPage.verifyLoginPage();
         Assert.assertEquals(title, "LOGIN Panel");
 
+        TestUtil.takeScreenshotAtEndofTest();
     }
 
     @Test(priority = 2)
-    public void loginTest(){
+    public void loginTest() throws IOException {
 //         loginPage = new LoginPage();
 //        loginPage.login("Admin", "admin");
         LoginPage.login(prop.getProperty("uname"), prop.getProperty("pwd"));
 
+        TestUtil.takeScreenshotAtEndofTest();
     }
 
     @Test(priority = 3)
